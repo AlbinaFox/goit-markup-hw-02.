@@ -1,0 +1,218 @@
+/*GENERAL STYLES*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.link-list-current{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+
+.link-list-current:hover,
+.link-list-current:focus {
+    color: #2196F3
+}
+
+.link-list{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: calk(16/14);
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.link-list:hover,
+.link-list:focus {
+    color: #2196F3
+}
+
+.first-part {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calk (31/26);
+        /* identical to box height */
+        letter-spacing: 0.03em;
+    color: #2196F3
+}
+
+.last-part {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calk (31/26);
+        /* identical to box height */
+        letter-spacing: 0.03em;
+    color: #000000
+}
+
+.header-mail-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calk (16/14);
+    letter-spacing: 0.02em;
+
+    color: #757575;
+
+}
+
+.header-tel-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calk (16/14);
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+    color: #2196F3
+}
+.header-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calk (30/16);
+    /* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+     background: #F5F4FA;;
+    cursor: pointer
+}
+ .header-btn:hover,
+.header-btn:focus{
+background: #2196F3;
+}
+
+.about-job{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calk (36/18);
+        /* identical to box height, or 200% */
+        letter-spacing: 0.06em;
+    
+        color: #212121;
+}
+.work-portfolio{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calk (30/16);
+        /* identical to box height, or 188% */
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
+.about-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calk(24/14);
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.about-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calk(24/14);
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.about-tel:hover,
+.about-tel:focus,
+.about-mail:hover,
+.about-mail:focus {
+    color: #2196F3;
+}
+
+.about-adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calk(24/14);
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.about-contact {
+    background: #2F303A;
+}
+
+.first-footer{
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calk(31/26);
+    /* identical to box height */
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+.footer-part{
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calk(31/26);
+    /* identical to box height */
+    letter-spacing: 0.03em;
+
+    color:#FFFFFF;
+}

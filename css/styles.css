@@ -1,4 +1,10 @@
 /*GENERAL STYLES*/
+
+:root{
+    --second-font: 'Roboto', sans-serif;
+    --accent-color: #FFFFFF;
+    --link-hover-color: #2196F3;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -22,28 +28,62 @@ position: absolute;
 
     background: #FFFFFF;
 }
+.list-link-current {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calk (16/14);
+    letter-spacing: 0.02em;
+    color: #212121;
+}
 
-.header-nav-link{
+.header-link-item{
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calk (16/14);
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color:#212121;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-link-item :hover,
+.header-link-item :focus {
     color: #2196F3
 }
 
+.list-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height:  calk (16/14);
+letter-spacing: 0.02em;
+
+color: #212121;
+} 
 .first-part{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calk (31/26);
+        /* identical to box height */
+        letter-spacing: 0.03em;
 color:#2196F3
 }
 
 .last-part{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height:  calk (31/26);
+        /* identical to box height */
+        letter-spacing: 0.03em;
     color:#000000
 }
 
@@ -52,7 +92,7 @@ color:#2196F3
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: calk (16/14);
         letter-spacing: 0.02em;
     
         color: #757575;
@@ -64,7 +104,7 @@ font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calk (16/14);
     letter-spacing: 0.02em;
 
     color: #757575;
@@ -84,7 +124,7 @@ color: #2196F3
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height:calk (60/44);
         /* or 136% */
     
         text-align: center;
@@ -103,7 +143,7 @@ color: #2196F3
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: calk (16/14);
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
@@ -114,7 +154,7 @@ color: #2196F3
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
-            line-height: 24px;
+            line-height: calk (24/14);
             /* or 171% */
             letter-spacing: 0.03em;
         
@@ -126,7 +166,7 @@ color: #2196F3
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calk (30/16);
     /* identical to box height, or 188% */
 
     display: flex;
@@ -146,7 +186,7 @@ color: #2196F3
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height:  calk (42/36);
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -159,7 +199,7 @@ color: #2196F3
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: calk (19/16);
         /* identical to box height */
         text-align: center;
         letter-spacing: 0.03em;
@@ -171,7 +211,7 @@ color: #2196F3
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: calk (19/16);
         /* identical to box height */
         text-align: center;
         letter-spacing: 0.03em;
@@ -187,7 +227,7 @@ font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calk (24/14);
     /* or 171% */
     letter-spacing: 0.03em;
 
@@ -198,7 +238,7 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: calk 24/14;
         /* or 171% */
         letter-spacing: 0.03em;
     
@@ -216,7 +256,7 @@ color: #2196F3;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: calk (24/14);
         /* or 171% */
         letter-spacing: 0.03em;
     
@@ -224,4 +264,27 @@ color: #2196F3;
 }
 .about-contact{
     background: #2F303A;
+}
+
+.footer-web{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calk (31/26);
+        /* identical to box height */
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+.footer-studio{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height:  calk (31/26);
+        /* identical to box height */
+        letter-spacing: 0.03em;
+    
+        color:#FFFFFF;
 }
