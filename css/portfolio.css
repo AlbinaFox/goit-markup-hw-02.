@@ -1,5 +1,20 @@
 /*GENERAL STYLES*/
+:root {
+    --second-font: 'Roboto', sans-serif;
+    --main-color: #212121;
+    --second-color:#757575;
+    --background-color: #FFFFFF;
+    --second-backgroundcolor:#2F303A;
+    --accent-color:#2196F3;
+    --background-color-current:#188CE8;
+    --background-color-team:#F5F4FA;
+    --black-color:#000000;
+    --white-color:#FFFFFF;
+    --mailtel-color:rgba(215, 23, 23, 0.6);
+}
+
 body {
+    background-color: var(--background-color);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,97 +33,100 @@ a {
     left: 0px;
     top: 0px;
 
-    background: #FFFFFF;
+    color: var(--white-color);
+}
+.header-background{
+ color: var(--second-backgroundcolor);
 }
 
 .link-list-current{
-    font-family: 'Roboto';
-        font-style: normal;
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: calc(16/14);
         letter-spacing: 0.02em;
     
-        color: #212121;
+       color: var(--main-color);
 }
 
 .link-list-current:hover,
-.link-list-current:focus {
-    color: #2196F3
+.ink-list-current:focus {
+color: var(--accent-color);
 }
 
 .link-list{
-font-family: 'Roboto';
-font-style: normal;
+font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 14px;
-line-height: calk(16/14);
+line-height: calc(16/14);
 letter-spacing: 0.02em;
 
-color: #212121;
+color: var(--main-color);
 }
+
 .link-list:hover,
 .link-list:focus {
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 .first-part {
-    font-family: 'Raleway';
-        font-style: normal;
+        font-family: 'Raleway',sans-serif;
         font-weight: 700;
         font-size: 26px;
-        line-height: calk (31/26);
+        line-height: calc(31/26);
         /* identical to box height */
         letter-spacing: 0.03em;
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 .last-part {
-    font-family: 'Raleway';
-        font-style: normal;
+        font-family: 'Raleway',sans-serif;
         font-weight: 700;
         font-size: 26px;
-        line-height: calk (31/26);
+        line-height: calc(31/26);
         /* identical to box height */
         letter-spacing: 0.03em;
-    color: #000000
+    color: var(--black-color);
+}
+.header-btn:hover,
+.header-btn:focus {
+color: var(--black-color);
 }
 
 .header-mail-link {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: calk (16/14);
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: var(--second-color);
 
 }
 
 .header-tel-link {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: calk (16/14);
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: var(--second-color);
 }
 
 .header-mail-link:hover,
 .header-mail-link:focus,
 .header-tel-link:hover,
-.header-tel-link:focus {
-    color: #2196F3
+.header-tel-link:focus,
+.about-adress:hover
+ {
+    color: var(--accent-color);
 }
 .header-btn {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: calk (30/16);
+    line-height: calc(30/16);
     /* identical to box height, or 188% */
 
     display: flex;
@@ -116,31 +134,45 @@ color: #212121;
     text-align: center;
     letter-spacing: 0.06em;
 
-     background: #F5F4FA;;
+    color: var(--main-color);
     cursor: pointer
 }
- .header-btn:hover,
+.header-btn:hover,
 .header-btn:focus{
-background: #2196F3;
+    background-color: var(--background-color);
+    background: var(--accent-color);
+    color: var(--background-color);
+}
+.section-hero-color {
+    background-color: var(--white-color);
+}
+
+.team-style{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/16);
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+
+    color: #212121;
 }
 
 .about-job{
-    font-family: 'Roboto';
-        font-style: normal;
+        font-family: 'Roboto',sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: calk (36/18);
+        line-height: calc(36/18);
         /* identical to box height, or 200% */
         letter-spacing: 0.06em;
     
         color: #212121;
 }
 .work-portfolio{
-    font-family: 'Roboto';
-        font-style: normal;
+        font-family: 'Roboto',sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: calk (30/16);
+        line-height: calc(30/16);
         /* identical to box height, or 188% */
         letter-spacing: 0.03em;
     
@@ -148,11 +180,11 @@ background: #2196F3;
 }
 
 .about-mail {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calk(24/14);
+    line-height: calc(24/14);
     /* or 171% */
     letter-spacing: 0.03em;
 
@@ -160,11 +192,11 @@ background: #2196F3;
 }
 
 .about-tel {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calk(24/14);
+    line-height: calc(24/14);
     /* or 171% */
     letter-spacing: 0.03em;
 
@@ -179,11 +211,11 @@ background: #2196F3;
 }
 
 .about-adress {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calk(24/14);
+    line-height: calc(24/14);
     /* or 171% */
     letter-spacing: 0.03em;
 
@@ -195,22 +227,20 @@ background: #2196F3;
 }
 
 .first-footer{
-font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: calk(31/26);
+    line-height: calc(31/26);
     /* identical to box height */
     letter-spacing: 0.03em;
 
     color: #2196F3;
 }
 .footer-part{
-font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: calk(31/26);
+    line-height: calc(31/26);
     /* identical to box height */
     letter-spacing: 0.03em;
 
