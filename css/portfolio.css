@@ -50,7 +50,7 @@ a {
 }
 
 .link-list-current:hover,
-.ink-list-current:focus {
+.link-list-current:focus {
 color: var(--accent-color);
 }
 
@@ -68,6 +68,40 @@ color: var(--main-color);
 .link-list:focus {
     color: var(--accent-color);
 }
+
+.header-btn:hover,
+.header-btn:focus {
+    background-color: var(--background-color);
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.section-hero-color {
+ background-color: var(--white-color);
+}
+
+.about-team{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+color: var(--main-color);
+}
+
+.work-portfolio{
+   font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30/16);
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
 
 .first-part {
         font-family: 'Raleway',sans-serif;
@@ -135,49 +169,19 @@ color: var(--black-color);
     letter-spacing: 0.06em;
 
     color: var(--main-color);
+    background-color: var(--background-color-team);
     cursor: pointer
 }
 .header-btn:hover,
 .header-btn:focus{
-    background-color: var(--background-color);
-    background: var(--accent-color);
-    color: var(--background-color);
+background-color: var(--background-color);
+background: var(--accent-color);
+color: var(--background-color);
 }
 .section-hero-color {
-    background-color: var(--white-color);
+background-color: var(--background-color);
 }
 
-.team-style{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: calc(36/16);
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-
-    color: #212121;
-}
-
-.about-job{
-        font-family: 'Roboto',sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: calc(36/18);
-        /* identical to box height, or 200% */
-        letter-spacing: 0.06em;
-    
-        color: #212121;
-}
-.work-portfolio{
-        font-family: 'Roboto',sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(30/16);
-        /* identical to box height, or 188% */
-        letter-spacing: 0.03em;
-    
-        color: #757575;
-}
 
 .about-mail {
     font-family: 'Roboto',sans-serif;
@@ -207,7 +211,7 @@ color: var(--black-color);
 .about-tel:focus,
 .about-mail:hover,
 .about-mail:focus {
-    color: #2196F3;
+ color: var(--accent-color);
 }
 
 .about-adress {
@@ -219,11 +223,11 @@ color: var(--black-color);
     /* or 171% */
     letter-spacing: 0.03em;
 
-    color: #FFFFFF;
+color: var(--background-color);
 }
 
 .about-contact {
-    background: #2F303A;
+   background: var(--second-backgroundcolor);
 }
 
 .first-footer{
@@ -234,7 +238,7 @@ color: var(--black-color);
     /* identical to box height */
     letter-spacing: 0.03em;
 
-    color: #2196F3;
+  color: var(--accent-color);
 }
 .footer-part{
     font-family: 'Raleway',sans-serif;
@@ -243,6 +247,5 @@ color: var(--black-color);
     line-height: calc(31/26);
     /* identical to box height */
     letter-spacing: 0.03em;
-
-    color:#FFFFFF;
+color: var(--background-color);
 }
