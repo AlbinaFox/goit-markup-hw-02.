@@ -82,7 +82,6 @@ color: var(--main-color);
 
 .about-team{
     font-family: 'Roboto',sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
@@ -92,8 +91,7 @@ color: var(--main-color);
 }
 
 .work-portfolio{
-   font-family: 'Roboto';
-    font-style: normal;
+   font-family: 'Roboto'sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30/16);
